@@ -6,7 +6,9 @@
 }
 @media (max-width:540px){
     .container{
+        height: 100%;
         margin: auto;
+        position: relative;
     }
     .header{
         width: 100%;
@@ -61,6 +63,7 @@
         padding-top: 3%;
     }
     .main{
+        height: 600px;
         width: 100%;
         position: relative;
         padding: 215px 0 0 0;
@@ -76,9 +79,8 @@
         padding-top: 2%;
         width: 100%;
         max-width: 768px;
-        margin: auto;
         bottom: 0;
-        position: fixed;
+        position: absolute;
         box-shadow: 2px -2px 18px 5px rgba(0,0,0,0.03);
     }
     .footer ul{
