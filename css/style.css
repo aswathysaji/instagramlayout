@@ -16,6 +16,7 @@
         padding-left: 5%;
         padding-top: 3%;
         padding-bottom: 2%;
+        box-shadow:0px 2px 18px 5px rgba(0,0,0,0.07);
     }
     .header ul{
         margin: 0;
@@ -63,10 +64,9 @@
     .main{
         width: 100%;
         position: relative;
-        padding: 210px 0 0 0;
+        padding: 215px 0 0 0;
     }
     .main h1{
-        margin: 0 0 40px 0;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         color: #ec524b;
@@ -74,11 +74,13 @@
         font-size: 2.5rem;
     }
     .footer{
+        padding-top: 3%;
         width: 100%;
         max-width: 768px;
         margin: auto;
         bottom: 0;
         position: fixed;
+        box-shadow:0px 2px 18px 5px rgba(0,0,0,0.1);
     }
     .footer ul{
         margin: 0;
