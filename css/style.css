@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:500px){
+    .container{
+        margin: auto;
+    }
+    .header{
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+        top: 0;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+    .header ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        height: 50px;
+    }
+    li{
+        float: left;
+    }
+    .start{
+        width: 10%;
+    }
+    .second{
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .third{
+        width: 10%;
+    }
+    .fourth{
+        width: 15%;
+    }
+    i{
+        color:#534e52;
+    }
+    li a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+    }
+    .first img{
+        width: 25px;
+        height: 25px;
+    }
+    .second img{
+        width: 100px;
+        height: 35px;
+        padding-top: 3%;
+    }
+    .main{
+        height: 500px;
+        padding: 10px;
+        position: relative;
+    }
+    .main h1{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2.5rem;
+        color: #ec524b;
+    }
+    .footer{
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+        bottom: 0;
+        position: fixed;
+    }
+    .footer ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        height: 50px;
+    }
+    .footer li{
+        float: left;
+        width: 20%;
+    }
+    .footer li a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+    }
+    .footer .profile{
+        border-radius: 50%;
+        border: 1px solid gray;
+        width: 40%;
+        height: 40%;
+    }
+    .footer .newplus{
+        width: 33%;
+        height: 33%;
+    }
+
+    @media (max-width:1280px){
+        .container{
+            margin:0 auto;
+        }
+        .header{
+            width: 100%;
+            max-width: 768px;
+            margin: auto;
+            top: 0;
+            padding-left: 5%;
+            padding-top: 3%;
+            padding-bottom: 2%;
+        }
+        .header ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            height: 50px;
+        }
+        li{
+            float: left;
+        }
+        .start{
+            width: 10%;
+        }
+        .second{
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .third{
+            width: 10%;
+        }
+        .fourth{
+            width: 15%;
+        }
+        i{
+            color:#534e52;
+        }
+        li a{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+        }
+        .first img{
+            width: 25px;
+            height: 25px;
+        }
+        .second img{
+            width: 100px;
+            height: 35px;
+            padding-top: 3%;
+        }
+        .main{
+            height: 500px;
+            padding: 10px;
+            position: relative;
+        }
+        .main h1{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 2.5rem;
+            color: #ec524b;
+        }
+        .footer{
+            width: 100%;
+            max-width: 768px;
+            margin: auto;
+            bottom: 0;
+            position: fixed;
+        }
+        .footer ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            height: 50px;
+        }
+        .footer li{
+            float: left;
+            width: 20%;
+        }
+        .footer li a{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+        }
+        .footer .profile{
+            border-radius: 50%;
+            border: 1px solid gray;
+            width: 40%;
+            height: 40%;
+        }
+        .footer .newplus{
+            width: 33%;
+            height: 33%;
+        }
+    }
+}
