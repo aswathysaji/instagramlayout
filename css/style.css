@@ -63,7 +63,7 @@
     .main{
         width: 100%;
         position: relative;
-        padding: 230px 0 0 0;
+        padding: 215px 0 0 0;
     }
     .main h1{
         margin: 0 0 40px 0;
@@ -71,6 +71,7 @@
         font-family: 'Open Sans', sans-serif;
         color: #ec524b;
         padding: 1%;
+        font-size: 2.5rem;
     }
     .footer{
         width: 100%;
