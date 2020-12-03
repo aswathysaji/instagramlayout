@@ -79,7 +79,6 @@
         width: 100%;
         max-width: 768px;
         bottom: 0;
-        position: absolute;;
         box-shadow: 2px -2px 18px 5px rgba(0,0,0,0.03);
     }
     .footer ul{
